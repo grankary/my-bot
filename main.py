@@ -137,7 +137,8 @@ async def zakot_kumush(message: types.Message, state: FSMContext):
 
 @dp.message(ZakotState.qarz)
 async def zakot_hisob(message: types.Message, state: FSMContext):
-    if not message.text.isdigit():
+    if not message.text.isdig
+it():
         await message.answer("❌ Faqat raqam kiriting.")
         return
 
